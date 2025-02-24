@@ -88,7 +88,7 @@
                 await navigator.clipboard.writeText(text);
                 const button = document.getElementById('copy-button');
                 const originalText = button.innerHTML;
-                button.innerHTML = '<span>已复制! ✓</span>';
+                button.innerHTML = '<span>Copied! ✓</span>';
                 setTimeout(() => {
                     button.innerHTML = originalText;
                 }, 2000);
